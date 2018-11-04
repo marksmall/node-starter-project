@@ -1,0 +1,24 @@
+{
+  "name": "node-module-starter",
+  "version": "0.0.1",
+  "description": "A starter project for Node modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksmall/node-starter-project.git"
+  },
+  "keywords": [
+    "Node",
+    "Starter",
+    "Project"
+  ],
+  "author": "Mark Small",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marksmall/node-starter-project/issues"
+  },
+  "homepage": "https://github.com/marksmall/node-starter-project#readme"
+}
