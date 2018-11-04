@@ -4,6 +4,9 @@
   "description": "A starter project for Node modules.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "nodemon --exec babel-node src/index.js",
+    "serve": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +25,10 @@
   },
   "homepage": "https://github.com/marksmall/node-starter-project#readme",
   "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
     "eslint": "^5.8.0",
     "nodemon": "^1.18.5",
     "prettier": "^1.14.3",
