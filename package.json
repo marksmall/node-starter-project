@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/marksmall/node-starter-project/issues"
   },
-  "homepage": "https://github.com/marksmall/node-starter-project#readme"
+  "homepage": "https://github.com/marksmall/node-starter-project#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "nodemon": "^1.18.5",
+    "prettier": "^1.14.3",
+    "semantic-release": "^15.10.7"
+  },
+  "dependencies": {}
 }
